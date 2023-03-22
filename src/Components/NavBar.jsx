@@ -12,7 +12,7 @@ function NavBar() {
                     animate={{ scale:1.035 }}
                     transition={{ ease: "easeInOut", duration:3, repeat:Infinity, repeatType:'reverse' }}
                 className="text-2xl text-fuchsia-500 font-bold">
-                    <h4 className='font-semibold'>{"<Web Developer/>"}</h4>
+                    <div className='font-semibold'>{"<Web Developer/>"}</div>
                 </motion.h1>
 
                 <div className="flex items-center text-lg font-bold">

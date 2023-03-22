@@ -74,13 +74,14 @@ export default function Skills() {
       {/* Parte Front end  */}
     <div className="mt-8 p-5"> 
       <div>
-        <h2 data-aos="fade-right" data-aos-duration="2000" className={style.subtitle}>Front end</h2>
+        <h2 data-aos="fade-right" data-aos-duration="1000" className={style.subtitle}>Front end</h2>
       </div>
 
       <div className="mt-5 mb-10 flex flex-wrap justify-center max-w-2xl gap-4">
+            
             {front.map(e => 
             
-              <div className="text-white grid gap-2 justify-items-center cursor-grab border rounded-lg p-3 shadow-2xl font-semibold hover:scale-110" style={{backgroundColor: 'rgba(255, 253, 253, 0.218)'}}>
+              <div key={e.name} className="text-white grid gap-2 justify-items-center cursor-grab border rounded-lg p-3 shadow-2xl font-semibold hover:scale-110" style={{backgroundColor: 'rgba(255, 253, 253, 0.218)'}}>
                 <img src={e.image} className={"h-20"} width={80} height={80}/>
                 <h4>{e.name}</h4>
             </div>
@@ -93,13 +94,13 @@ export default function Skills() {
     {/* Parte Back end */}
     <div className="p-5"> 
         <div>
-            <h2 data-aos="fade-right" data-aos-duration="2000" className={style.subtitle}>Back end</h2>
+            <h2 data-aos="fade-right" data-aos-duration="1000" className={style.subtitle}>Back end</h2>
         </div>
 
         <div className="mt-5 mb-10 flex flex-wrap justify-center max-w-2xl gap-4 ">
           {back.map(e => 
                 
-                <div className="text-white grid gap-2 justify-items-center cursor-grab border rounded-lg p-3 shadow-2xl font-semibold hover:scale-110" style={{backgroundColor: 'rgba(255, 253, 253, 0.218)'}}>
+                <div key={e.name} className="text-white grid gap-2 justify-items-center cursor-grab border rounded-lg p-3 shadow-2xl font-semibold hover:scale-110" style={{backgroundColor: 'rgba(255, 253, 253, 0.218)'}}>
                   <img src={e.image} className={"h-20"} width={80} height={80}/>
                   <h4>{e.name}</h4>
               </div>
@@ -113,7 +114,7 @@ export default function Skills() {
       
       <div className="p-5">
         <div>
-          <h2 data-aos="fade-right" data-aos-duration="2000" className={style.subtitle}>Tools</h2>
+          <h2 data-aos="fade-right" data-aos-duration="1000" className={style.subtitle}>Tools</h2>
         </div>
 
       
@@ -121,7 +122,7 @@ export default function Skills() {
               
             {tools.map(e => 
                 
-                <div className="text-white grid gap-2 justify-items-center cursor-grab border rounded-lg p-3 shadow-2xl font-semibold hover:scale-110" style={{backgroundColor: 'rgba(255, 253, 253, 0.218)'}}>
+                <div key={e.name} className="text-white grid gap-2 justify-items-center cursor-grab border rounded-lg p-3 shadow-2xl font-semibold hover:scale-110" style={{backgroundColor: 'rgba(255, 253, 253, 0.218)'}}>
                   <img src={e.image} className={"h-20"} width={80} height={80}/>
                   <h4>{e.name}</h4>
               </div>
