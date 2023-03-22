@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import style from '../Styles/About.module.css'
-import pic from '../Assets/foto2.png'
+import pic from '../Assets/fotoo.png'
 import hi from '../Assets/chat2.png'
 import {BsGithub, BsLinkedin, BsTwitter} from 'react-icons/bs'
 import AOS from 'aos'
