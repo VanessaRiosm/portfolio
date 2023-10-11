@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import rick from '../Assets/rick.PNG'
 import countries from '../Assets/countriesApp.PNG'
-import portfolio from '../Assets/capportfolio.png'
+import portfolio from '../Assets/capportfolio.PNG'
 import shope from '../Assets/shope.PNG'
 import talkap from '../Assets/CapTalk.PNG'
 import AOS from 'aos'
