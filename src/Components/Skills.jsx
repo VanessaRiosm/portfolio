@@ -11,11 +11,16 @@ import ht from '../Assets/ht.png'
 import js from '../Assets/js.png'
 import nd from '../Assets/nd.png'
 import pg from '../Assets/pg.png'
+import mo from '../Assets/mo.png'
+import md from '../Assets/md.png'
 import rx from '../Assets/rx.png'
 import sl from '../Assets/sl.png'
 import sq from '../Assets/sq.png'
 import tl from '../Assets/tl.png'
+import mu from '../Assets/mu.png'
 import tr from '../Assets/tr.png'
+import vt from '../Assets/vt.png'
+import ts from '../Assets/ts.png'
 import vs from '../Assets/vs.png'
 import au from '../Assets/au.png'
 import st from '../Assets/st.png'
@@ -25,13 +30,15 @@ import 'aos/dist/aos.css'
 
 const front = [
   {name: 'JavaScript', image: js},
+  {name: 'Typescript', image: ts},
   {name: 'HTML', image: ht},
   {name: 'CSS', image: cs},
   {name: 'React', image: rc},
+  {name: 'Vite', image: vt},
   {name: 'Redux', image: rx},
-  {name: 'Bootstrap', image: bs},
-  {name: 'Chakra.ui', image: ck},
+  {name: 'Chakra UI', image: ck},
   {name: 'Tailwind', image: tl},
+  {name: 'Material UI', image: mu},
 ]
 
 const back = [
@@ -41,6 +48,8 @@ const back = [
   {name: 'Sequelize', image: sq},
   {name: 'Socket io', image: st},
   {name: 'Auth0', image: au},
+  {name: 'MongoDB', image: md},
+  {name: 'Mongoose', image: mo},
 ]
 
 const tools = [
