@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import rick from '../Assets/rick.png'
+import rick from '../Assets/rick.PNG'
 import countries from '../Assets/countriesApp.png'
 import portfolio from '../Assets/CapPortfolio.png'
 import shope from '../Assets/shope.png'
