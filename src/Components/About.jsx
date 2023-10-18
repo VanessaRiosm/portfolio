@@ -58,7 +58,7 @@ function About() {
             <span>
               <a
                 className={style.btn}
-                href='https://drive.google.com/file/d/1Rzc5c49ye_9PL3mZ01QxW3a7gpyS-Ri0/view?usp=sharing'
+                href='https://drive.google.com/file/d/1JdwzAfI6E-smrQiB7cll5avhyTFcFKVV/view?usp=sharing'
                 target='_blank'
                 rel='noreferrer'
               >
