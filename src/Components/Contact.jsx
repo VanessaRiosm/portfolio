@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import il from '/Assets/segiL.webp'
+import il from '../assets/segiL.webp'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import {useFormik} from 'formik'
