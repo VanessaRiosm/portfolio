@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import pc from '../../Assets/pcimg.png'
+import pc from '/Assets/pcimg.png'
 import {BsWhatsapp} from 'react-icons/bs'
 import {GrMail} from 'react-icons/gr'
 import AOS from 'aos'
