@@ -3,7 +3,7 @@ import rick from '../assets/rick.PNG'
 import countries from '../assets/countriesApp.png'
 import portfolio from '../assets/CapPortfolio.png'
 import shope from '../assets/shope.png'
-import talkap from '../assets/CapTalk.PNG'
+import talkap from '../assets/CapTalk.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
