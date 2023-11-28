@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import rick from '../assets/rick.PNG'
 import countries from '../assets/countriesApp.png'
 import portfolio from '../assets/CapPortfolio.png'
+import discord from '../assets/discordcap.png'
 import shope from '../assets/shope.png'
 import talkap from '../assets/CapTalk.PNG'
 import AOS from 'aos'
@@ -10,12 +11,30 @@ import 'aos/dist/aos.css'
 // modificar datos incorrectos
 const project = [
   {
+    name: 'Discord Clone',
+    image: discord,
+    techs: [
+      'React',
+      'Next Js',
+      'Typescript',
+      'Clerk',
+      'Socket io',
+      'Tailwind',
+      'Shadcn',
+      'MySQL',
+      'Prisma',
+    ],
+    description:
+      'Discord clone with user authentication, option to add, delete and edit servers, channels and messages.',
+    link: '',
+  },
+  {
     name: 'Shope',
     image: shope,
     techs: [
-      'Typescript',
       'React',
       'Vite',
+      'Typescript',
       'Material UI',
       'Redux Toolkit',
       'Node.js',
