@@ -26,7 +26,7 @@ const project = [
     ],
     description:
       'Discord clone with user authentication, option to add, delete and edit servers, channels and messages.',
-    link: '',
+    link: 'https://discord-clone33.vercel.app',
   },
   {
     name: 'Shope',
