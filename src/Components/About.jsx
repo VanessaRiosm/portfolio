@@ -53,7 +53,7 @@ function About() {
           responsibility and perseverance
         </div>
 
-        <div className='flex my-20 items-center'>
+        <div className='flex my-[21px] items-center'>
           <button className={style.btn}>
             <span>
               <a
