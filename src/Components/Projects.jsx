@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import rick from '../assets/rick.PNG'
+import rick from '../assets/rick.png'
 import countries from '../assets/countriesApp.png'
 import portfolio from '../assets/CapPortfolio.png'
 import discord from '../assets/discordcap.png'
@@ -157,14 +157,14 @@ export const Projects = () => {
                   ))}
                 </div>
 
-                <button
-                  type='button'
-                  className='text-white bg-gradient-to-r from-purple-400 to-fuchsia-700 hover:bg-gradient-to-br focus:ring-1 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'
-                >
-                  <a href={p.link} target='_blank' rel='noreferrer'>
+                <a href={p.link} target='_blank' rel='noreferrer'>
+                  <button
+                    type='button'
+                    className='text-white bg-gradient-to-r from-purple-400 to-fuchsia-700 hover:bg-gradient-to-br focus:ring-1 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'
+                  >
                     See more
-                  </a>
-                </button>
+                  </button>
+                </a>
               </div>
             </div>
           )
