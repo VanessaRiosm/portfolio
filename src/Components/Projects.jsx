@@ -59,7 +59,7 @@ const project = [
       'Framer Motion',
     ],
     description: 'My personal portfolio as a developer.',
-    link: 'https://portfolio-67iu.vercel.app/',
+    link: 'https://portfolio-vanessarios.vercel.app',
   },
   {
     name: 'Talkap',
