@@ -42,13 +42,12 @@ export const MyInfo = () => {
 
         <div className='w-full max-w-md p-7 grid justify-items-center my-10 text-white font-Roboto'>
           <div>
-            I'm Vanessa! <br /> <br />I am a Fullstack Web Developer with great
-            ability to work in a team and consolidate web projects with
-            enthusiasm and great performance. I consider that I have a great
-            capacity for learning and adaptation, I am constantly learning new
-            technologies and improving my skills. I am a responsible and
-            creative person, always trying to improve personally and
-            professionally.
+            I'm Vanessa! <br /> <br />
+            Full Stack Web Developer with experience in web development. I have
+            a solid knowledge of technologies such as TypeScript, React, NextJs,
+            and NodeJs. I have strong teamwork skills, my strong learning
+            ability drives me to seek a team where I can contribute and continue
+            growing professionally.
           </div>
 
           <div className='m-10 self-start w-full grid justify-items-start'>
